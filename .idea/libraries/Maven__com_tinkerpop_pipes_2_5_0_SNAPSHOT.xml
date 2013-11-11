@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.tinkerpop:pipes:2.5.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/tinkerpop/pipes/2.5.0-SNAPSHOT/pipes-2.5.0-20131024.235509-5.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/tinkerpop/pipes/2.5.0-SNAPSHOT/pipes-2.5.0-20131024.235509-5-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/tinkerpop/pipes/2.5.0-SNAPSHOT/pipes-2.5.0-20131024.235509-5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
