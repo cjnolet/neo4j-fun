@@ -1,12 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2b8a74d7-44d6-4920-8bf9-84fd2dd66642" name="Default" comment="" />
+    <list default="true" id="2b8a74d7-44d6-4920-8bf9-84fd2dd66642" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_0_9_30.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_0_9_30.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_concurrentlinkedhashmap_concurrentlinkedhashmap_lru_1_3_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_orientechnologies_orientdb_core_1_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_orientechnologies_orientdb_nativeos_1_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_tinkerpop_blueprints_blueprints_neo4j_graph_2_5_0_SNAPSHOT.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_6_3_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_16.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_3_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_neo4j_neo4j_backup_1_9_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_neo4j_neo4j_cluster_1_9_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_neo4j_neo4j_com_1_9_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_neo4j_neo4j_consistency_check_1_9_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_neo4j_neo4j_cypher_1_9_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_neo4j_neo4j_graph_algo_1_9_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_neo4j_neo4j_graph_matching_1_9_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_neo4j_neo4j_ha_1_9_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_neo4j_neo4j_jmx_1_9_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_neo4j_neo4j_management_1_9_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_neo4j_neo4j_udc_1_9_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_library_2_10_0.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/cjnolet/neo4j/Neo4jDriver.java" afterPath="$PROJECT_DIR$/src/main/java/org/cjnolet/neo4j/Neo4jDriver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/neo4j-fun-parent.iml" afterPath="$PROJECT_DIR$/neo4j-fun-parent.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="neo4j-fun-parent.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="2b8a74d7-44d6-4920-8bf9-84fd2dd66642" time="1384044457392" ignored="false" />
-    <file path="/pom.xml" changelist="2b8a74d7-44d6-4920-8bf9-84fd2dd66642" time="1383884342201" ignored="false" />
-    <file path="/Neo4jDriver.java" changelist="2b8a74d7-44d6-4920-8bf9-84fd2dd66642" time="1383884422015" ignored="false" />
+    <file path="/Dummy.txt" changelist="2b8a74d7-44d6-4920-8bf9-84fd2dd66642" time="1384910284941" ignored="false" />
+    <file path="/pom.xml" changelist="2b8a74d7-44d6-4920-8bf9-84fd2dd66642" time="1384834717845" ignored="false" />
+    <file path="/Neo4jDriver.java" changelist="2b8a74d7-44d6-4920-8bf9-84fd2dd66642" time="1384914039068" ignored="false" />
+    <file path="$MAVEN_REPOSITORY$/com/orientechnologies/orientdb-object/1.6/orientdb-object-1.6.jar!/META-INF/persistence/persistence_2_0.xsd" changelist="2b8a74d7-44d6-4920-8bf9-84fd2dd66642" time="1384571985302" ignored="false" />
+    <file path="/fragment.java" changelist="2b8a74d7-44d6-4920-8bf9-84fd2dd66642" time="1384831892684" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +49,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -58,6 +85,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -70,7 +98,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="17" selection-start="2446" selection-end="2446" vertical-scroll-proportion="0.0">
+            <state line="50" column="13" selection-start="1854" selection-end="1854" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -79,82 +107,10 @@
       <file leaf-file-name="Neo4jDriver.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/cjnolet/neo4j/Neo4jDriver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="119" column="26" selection-start="4282" selection-end="4285" vertical-scroll-proportion="0.795082">
+            <state line="35" column="23" selection-start="1127" selection-end="1127" vertical-scroll-proportion="0.39637828">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OSchemaShared.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/orientechnologies/orientdb-core/1.6/orientdb-core-1.6-sources.jar!/com/orientechnologies/orient/core/metadata/schema/OSchemaShared.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="110" column="0" selection-start="4772" selection-end="4772" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Element.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/directmemory/directmemory-ehcache/0.2/directmemory-ehcache-0.2.jar!/net/sf/ehcache/Element.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="9" selection-start="1919" selection-end="1919" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Cache.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/directmemory/directmemory-ehcache/0.2/directmemory-ehcache-0.2.jar!/net/sf/ehcache/Cache.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="112" column="20" selection-start="10447" selection-end="10447" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CacheManager.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/directmemory/directmemory-ehcache/0.2/directmemory-ehcache-0.2.jar!/net/sf/ehcache/CacheManager.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="221" column="94" selection-start="14288" selection-end="14288" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ExecutingRestAPI.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/neo4j/neo4j-rest-graphdb/1.9.3-SNAPSHOT/neo4j-rest-graphdb-1.9.3-SNAPSHOT.jar!/org/neo4j/rest/graphdb/ExecutingRestAPI.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="128" column="0" selection-start="8617" selection-end="8617" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RestCypherQueryEngine.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/neo4j/neo4j-rest-graphdb/1.9.3-SNAPSHOT/neo4j-rest-graphdb-1.9.3-SNAPSHOT.jar!/org/neo4j/rest/graphdb/query/RestCypherQueryEngine.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="9" selection-start="440" selection-end="440" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GraphDatabaseService.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/neo4j/neo4j-kernel/1.9.2/neo4j-kernel-1.9.2.jar!/org/neo4j/graphdb/GraphDatabaseService.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="25" selection-start="212" selection-end="212" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EmbeddedGraphDatabase.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/neo4j/neo4j-kernel/1.6.1/neo4j-kernel-1.6.1.jar!/org/neo4j/kernel/EmbeddedGraphDatabase.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="56" selection-start="351" selection-end="359" vertical-scroll-proportion="0.0">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -183,7 +139,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
+    <option name="x" value="4" />
     <option name="y" value="22" />
     <option name="width" value="1436" />
     <option name="height" value="878" />
@@ -214,6 +170,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -261,7 +218,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -274,6 +230,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
@@ -372,11 +329,11 @@
     </configuration>
     <configuration default="false" name="Neo4jDriver" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="org.cjnolet.neo4j.Neo4jDriver" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="VM_PARAMETERS" value="-server -Xmx4096m -XX:+UseConcMarkSweepGC" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
@@ -410,27 +367,27 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="22" width="1436" height="878" extended-state="0" />
-    <editor active="false" />
+    <frame x="4" y="22" width="1436" height="878" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39974457" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32950193" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32950193" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.6704981" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32950193" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.6704981" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32950193" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32950193" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -500,104 +457,86 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/neo4j/neo4j-kernel/1.6.1/neo4j-kernel-1.6.1.jar!/org/neo4j/kernel/EmbeddedGraphDatabase.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/neo4j/neo4j-rest-graphdb/1.9.3-SNAPSHOT/neo4j-rest-graphdb-1.9.3-SNAPSHOT.jar!/org/neo4j/rest/graphdb/ExecutingRestAPI.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="56" selection-start="351" selection-end="359" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="128" column="0" selection-start="8617" selection-end="8617" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/neo4j/neo4j-kernel/1.6.1/neo4j-kernel-1.6.1.jar!/org/neo4j/kernel/EmbeddedGraphDatabase.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="56" selection-start="351" selection-end="359" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="9" column="56" selection-start="351" selection-end="359" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/tinkerpop/blueprints/blueprints-neo4j-graph/1.2/blueprints-neo4j-graph-1.2.jar!/com/tinkerpop/blueprints/pgm/impls/neo4j/Neo4jGraph.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/orientechnologies/orientdb-client/1.6/orientdb-client-1.6-sources.jar!/com/orientechnologies/orient/client/remote/OServerAdmin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="9" selection-start="787" selection-end="787" vertical-scroll-proportion="0.0" />
+        <state line="294" column="7" selection-start="9595" selection-end="9595" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/tinkerpop/blueprints/blueprints-core/2.5.0-SNAPSHOT/blueprints-core-2.5.0-SNAPSHOT-sources.jar!/com/tinkerpop/blueprints/Graph.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/tinkerpop/blueprints/blueprints-orient-graph/2.5.0-SNAPSHOT/blueprints-orient-graph-2.5.0-SNAPSHOT-sources.jar!/com/tinkerpop/blueprints/impls/orient/OrientBatchGraph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="18" selection-start="993" selection-end="993" vertical-scroll-proportion="0.0" />
+        <state line="17" column="77" selection-start="645" selection-end="645" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/neo4j/neo4j-rest-graphdb/1.9.3-SNAPSHOT/neo4j-rest-graphdb-1.9.3-SNAPSHOT.jar!/org/neo4j/rest/graphdb/RestGraphDatabase.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/tinkerpop/blueprints/blueprints-core/2.5.0-SNAPSHOT/blueprints-core-2.5.0-SNAPSHOT-sources.jar!/com/tinkerpop/blueprints/util/wrappers/batch/VertexIDType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="9" selection-start="473" selection-end="473" vertical-scroll-proportion="0.0" />
+        <state line="14" column="12" selection-start="679" selection-end="679" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/tinkerpop/blueprints/blueprints-orient-graph/2.5.0-SNAPSHOT/blueprints-orient-graph-2.5.0-SNAPSHOT-sources.jar!/com/tinkerpop/blueprints/impls/orient/OrientGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="9" selection-start="858" selection-end="858" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/tinkerpop/blueprints/blueprints-orient-graph/2.5.0-SNAPSHOT/blueprints-orient-graph-2.5.0-20131118.210457-18.jar!/com/tinkerpop/blueprints/impls/orient/OrientGraph.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="9" selection-start="460" selection-end="460" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/tinkerpop/blueprints/blueprints-neo4j-graph/2.5.0-SNAPSHOT/blueprints-neo4j-graph-2.5.0-SNAPSHOT-sources.jar!/com/tinkerpop/blueprints/impls/neo4j/Neo4jGraph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="136" column="0" selection-start="5471" selection-end="5471" vertical-scroll-proportion="0.0" />
+        <state line="137" column="11" selection-start="5483" selection-end="5483" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/neo4j/neo4j-kernel/1.9.2/neo4j-kernel-1.9.2.jar!/org/neo4j/kernel/EmbeddedGraphDatabase.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/tinkerpop/blueprints/blueprints-mapdb-graph/2.5.0-SNAPSHOT/blueprints-mapdb-graph-2.5.0-SNAPSHOT-sources.jar!/com/tinkerpop/blueprints/impls/mapdb/MapDBGraph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="9" selection-start="300" selection-end="300" vertical-scroll-proportion="0.0" />
+        <state line="381" column="11" selection-start="12510" selection-end="12510" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/neo4j/neo4j-rest-graphdb/1.9.3-SNAPSHOT/neo4j-rest-graphdb-1.9.3-SNAPSHOT.jar!/org/neo4j/rest/graphdb/query/RestCypherQueryEngine.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mapdb/mapdb/0.9.5/mapdb-0.9.5-sources.jar!/org/mapdb/DBMaker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="9" selection-start="440" selection-end="440" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="84" column="0" selection-start="2457" selection-end="2457" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/neo4j/neo4j-kernel/1.9.2/neo4j-kernel-1.9.2.jar!/org/neo4j/graphdb/GraphDatabaseService.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/tinkerpop/blueprints/blueprints-core/2.5.0-SNAPSHOT/blueprints-core-2.5.0-SNAPSHOT-sources.jar!/com/tinkerpop/blueprints/impls/tg/TinkerGraph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="25" selection-start="212" selection-end="212" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="128" column="11" selection-start="4568" selection-end="4568" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/neo4j/neo4j-rest-graphdb/1.9.3-SNAPSHOT/neo4j-rest-graphdb-1.9.3-SNAPSHOT.jar!/org/neo4j/rest/graphdb/ExecutingRestAPI.class">
+    <entry file="file://$PROJECT_DIR$/neo4j-fun-parent.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="128" column="0" selection-start="8617" selection-end="8617" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/directmemory/directmemory-ehcache/0.2/directmemory-ehcache-0.2.jar!/net/sf/ehcache/CacheManager.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/tinkerpop/blueprints/blueprints-core/2.5.0-SNAPSHOT/blueprints-core-2.5.0-SNAPSHOT-sources.jar!/com/tinkerpop/blueprints/util/wrappers/id/IdVertex.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="221" column="94" selection-start="14288" selection-end="14288" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="14" column="14" selection-start="470" selection-end="470" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/directmemory/directmemory-ehcache/0.2/directmemory-ehcache-0.2.jar!/net/sf/ehcache/Cache.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/orientechnologies/orientdb-core/1.6/orientdb-core-1.6-sources.jar!/com/orientechnologies/orient/core/db/graph/OGraphDatabasePool.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="112" column="20" selection-start="10447" selection-end="10447" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/directmemory/directmemory-ehcache/0.2/directmemory-ehcache-0.2.jar!/net/sf/ehcache/Element.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="9" selection-start="1919" selection-end="1919" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/orientechnologies/orientdb-core/1.6/orientdb-core-1.6-sources.jar!/com/orientechnologies/orient/core/metadata/schema/OSchemaShared.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="110" column="0" selection-start="4772" selection-end="4772" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="33" column="26" selection-start="1191" selection-end="1213" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="17" selection-start="2446" selection-end="2446" vertical-scroll-proportion="0.0">
+        <state line="50" column="13" selection-start="1854" selection-end="1854" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/cjnolet/neo4j/Neo4jDriver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="119" column="26" selection-start="4282" selection-end="4285" vertical-scroll-proportion="0.795082">
+        <state line="35" column="23" selection-start="1127" selection-end="1127" vertical-scroll-proportion="0.39637828">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

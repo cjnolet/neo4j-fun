@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.orientechnologies:orientdb-core:1.6.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/orientechnologies/orientdb-core/1.6.0-SNAPSHOT/orientdb-core-1.6.0-20131031.155810-168.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/orientechnologies/orientdb-core/1.6.0-SNAPSHOT/orientdb-core-1.6.0-20131031.155810-168-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/orientechnologies/orientdb-core/1.6.0-SNAPSHOT/orientdb-core-1.6.0-20131031.155810-168-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,123 +1,51 @@
 package org.cjnolet.neo4j;
 
-import com.orientechnologies.orient.core.db.graph.OGraphDatabase;
-import com.tinkerpop.blueprints.GraphQuery;
-import com.tinkerpop.blueprints.TransactionalGraph;
-import com.tinkerpop.blueprints.Vertex;
-import com.tinkerpop.blueprints.impls.orient.OrientGraph;
-import net.spy.memcached.MemcachedClient;
+import java.net.URI;
+import java.util.ArrayList;
 
-import java.io.IOException;
-import java.net.InetSocketAddress;
+import com.couchbase.client.CouchbaseClient;
+import com.couchbase.client.CouchbaseConnectionFactoryBuilder;
 
 public class Neo4jDriver {
-  
-  public static void main(String args[]) throws InterruptedException, IOException {
-//    
-//    // System.setProperty("net.sf.ehcache.skipUpdateCheck", "true");
-//    //
-//    //
-//    // CacheConfiguration cacheConfiguration = new CacheConfiguration();
-//    // cacheConfiguration.setName("mycache");
-//    // cacheConfiguration.setOverflowToOffHeap(true);
-//    //
-//    // cacheConfiguration.setMaxBytesLocalHeap(1l);
-//    // cacheConfiguration.setMaxBytesLocalOffHeap(1000000000l);
-//    //
-//    // Cache cache = new Cache(cacheConfiguration);
-//    // CacheManager.getInstance().addCache(cache);
-//    //
-//    // cache.getCacheEventNotificationService().registerListener(new CacheEventListener() {
-//    // @Override
-//    // public Object clone() throws CloneNotSupportedException {
-//    // return super.clone();
-//    // }
-//    //
-//    // @Override
-//    // public void notifyElementRemoved(Ehcache ehcache, Element element) throws CacheException {
-//    // System.out.println(element.getObjectKey() + " expired");
-//    // }
-//    //
-//    // @Override
-//    // public void notifyElementPut(Ehcache ehcache, Element element) throws CacheException {
-//    // }
-//    //
-//    // @Override
-//    // public void notifyElementUpdated(Ehcache ehcache, Element element) throws CacheException {
-//    // System.out.println(element.getObjectKey() + " expired");
-//    // }
-//    //
-//    // @Override
-//    // public void notifyElementExpired(Ehcache ehcache, Element element) {
-//    // System.out.println(element.getObjectKey() + " expired");
-//    // }
-//    //
-//    // @Override
-//    // public void notifyElementEvicted(Ehcache ehcache, Element element) {
-//    // System.out.println(element.getObjectKey() + " expired");
-//    // }
-//    //
-//    // @Override
-//    // public void notifyRemoveAll(Ehcache ehcache) {
-//    // }
-//    //
-//    // @Override
-//    // public void dispose() {
-//    // }
-//    // });
-//    //
-//    // for(int i = 0; i < 500000; i++) {
-//    // cache.put(new Element("myid" + i, "myval", false, 0, 1));
-//    // }
-//    
-//    TransactionalGraph graph = new OrientGraph("memory:test", "guest", "guest");
-////    OGraphDatabase odb = (OGraphDatabase) ((OrientGraph) graph).getRawGraph();
-////    odb.setUseCustomTypes(true);
-////    odb.createVertexType("Person");
-////    odb.createVertexType("Address");
-//    Vertex vPerson = graph.addVertex("class:Person");
-//    vPerson.setProperty("firstName", "John");
-//    vPerson.setProperty("lastName", "Smith");
-//    
-//    Vertex vAddress = graph.addVertex("class:Address");
-//    vAddress.setProperty("street", "Van Ness Ave.");
-//    vAddress.setProperty("city", "San Francisco");
-//    vAddress.setProperty("state", "California");
-//    
-//    long start = System.currentTimeMillis();
-//    for(int i = 0; i < 500000; i++) {
-//      Vertex v = graph.addVertex("class:Address");
-//    }
-//    long end = System.currentTimeMillis();
-//    
-//    System.out.println("Finished adding in " + (end - start) + "ms");
-//    
-//    start = System.currentTimeMillis();
-//    graph.commit();
-//    end = System.currentTimeMillis();
-//    
-//    System.out.println("Finished committing in " + (end - start) + "ms");
-//
-//    
-//    start = System.currentTimeMillis();
-//    Iterable<Vertex> query = graph.query().has("street", "Van Ness Ave.").vertices();
-//    for(Vertex v : query) {
-//      System.out.println(v);
-////      v.setProperty("state", "Maryland");
-////      graph.removeVertex(v);
-//    }
-//    end = System.currentTimeMillis();
-//    
-//    
-//    System.out.println("Finished querying in " + (end - start) + "ms");
-    
-    
-    MemcachedClient c=new MemcachedClient(new InetSocketAddress("localhost", 11211));
+ 
+  public static void main(String args[]) {
 
-    // Store a value (async) for one hour
-    c.set("someKey", 3600, "myobject");
-    // Retrieve a value (synchronously).
-    System.out.println(c.get("someKey"));
+        ArrayList<URI> nodes = new ArrayList<URI>();
 
+    // Add one or more nodes of your cluster (exchange the IP with yours)
+    nodes.add(URI.create("http://192.168.1.11:8091/pools"));
+    
+
+    // Try to connect to the client
+    CouchbaseConnectionFactoryBuilder cfb = new CouchbaseConnectionFactoryBuilder();
+    cfb.setOpTimeout(10000); // wait up to 10 seconds for an operation to succeed
+    cfb.setOpQueueMaxBlockTime(5000); 
+    CouchbaseClient client = null;
+    try {
+      client = new CouchbaseClient(cfb.buildCouchbaseConnection(nodes, "mybucket", ""));
+    } catch (Exception e) {
+      System.err.println("Error connecting to Couchbase: " + e.getMessage());
+      System.exit(1);
+    }
+    
+
+
+    // Set your first document with a key of "hello" and a value of "couchbase!"
+    int timeout = 0; // 0 means store forever
+    
+    long start = System.currentTimeMillis();
+    for(int i = 0; i < 10000; i++) {
+      client.("hello" + i, timeout, "couchbase!");
+      client.get("hello" + i);
+    }
+    long end = System.currentTimeMillis() - start;
+
+    System.out.println("500000 results in " + end + "ms.");
+    // Return the result and cast it to string
+    String result = (String)client.get("hello0");
+    System.out.println(result);
+    
+    // Shutdown the client
+    client.shutdown();
   }
 }
